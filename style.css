@@ -118,3 +118,35 @@ blog style end from here
 /*---------------------------------
 Latest Courses style start from here
 -----------------------------------*/
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    width: 253px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #f8f8f8ee;
+}
+
+.thumbneil img {
+    width: 224px;
+    height: 104px;
+}
+
+i.fa-solid.fa-star.filled {
+    color: #FFC014;
+}
+
+i.fa-solid.fa-star.empty {
+    color: #c5b9b991;
+}
+
+span.time {
+    background-color: #FFE4E8;
+    margin-left: 11px;
+    padding: 3px 7px 3px 8px;
+    border-radius: 20px;
+    color: #FF4A60;
+}
